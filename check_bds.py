@@ -6,7 +6,7 @@ import urllib.request
 from pathlib import Path
 
 API_URL = "https://net-secondary.web.minecraft-services.net/api/v1.0/download/links"
-OFFICIAL_PAGE = "https://www.minecraft.net/en-us/download/server/bedrock"
+OFFICIAL_PAGE = "https://www.minecraft.net/ja-jp/download/server/bedrock"
 STATE_FILE = Path("state.json")
 INITIAL_VERSION = os.environ.get("INITIAL_VERSION", "1.26.45.1")
 WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
